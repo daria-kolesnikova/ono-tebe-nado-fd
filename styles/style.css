@@ -43,3 +43,138 @@
   font-size: 18px;
   text-underline-offset: 4px;
 }
+
+.header__logo-image {
+  display: block;
+}
+
+.cover {
+  position: relative;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 757px;
+  padding-top: 165px;
+  padding-inline: 50px;
+  color:white;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0 0 0 / 60%);
+}
+
+.cover__title,
+.description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.cover__title {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 114.99px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 106px;
+}
+
+.bet-button {
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
+  border: 1px solid #fff; 
+  padding: 12px 32px;
+  text-transform: uppercase;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 28px;
+  text-transform: uppercase;
+  width: 637px;
+  text-align: justify;
+}
+
+.lots__card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  list-style: none;
+}
+
+.lots {
+  margin-top: 180px;
+  padding-inline: 24px;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card {
+  min-height: 596px;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex; 
+  flex-direction: column; 
+  color: #fff;
+  justify-content: space-between;
+  padding: 48px 40px;
+}
+
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+}
+
+.card__title,
+.card__text {
+  position: relative;
+  z-index: 1; 
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.card__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
