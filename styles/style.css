@@ -56,7 +56,7 @@
   min-height: 757px;
   padding-top: 165px;
   padding-inline: 50px;
-  color:white;
+  color: white;
 }
 
 .overlay {
@@ -74,7 +74,6 @@
 .aligned-text {
   text-align: left;
 }
-
 
 .aligned-text_right {
   text-align: right;
@@ -96,12 +95,11 @@
   gap: 20px;
   display: flex;
   flex-direction: column;
-
 }
 
 .description {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-top: 106px;
@@ -112,7 +110,7 @@
   font-weight: 400;
   font-size: 22px;
   color: #fff;
-  border: 1px solid #fff; 
+  border: 1px solid #fff;
   padding: 12px 32px;
   text-transform: uppercase;
 }
@@ -155,8 +153,8 @@
   position: relative;
   background-size: cover;
   background-position: center;
-  display: flex; 
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
   color: #fff;
   justify-content: space-between;
   padding: 48px 40px;
@@ -177,7 +175,7 @@
 .card__title,
 .card__text {
   position: relative;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .card__title {
@@ -236,7 +234,7 @@
   display: block;
   width: 148px;
   height: 114px;
-} 
+}
 
 .about__title {
   margin-top: 101px;
@@ -282,7 +280,7 @@
 
 .footer__menu-link_active {
   text-decoration: none;
-} 
+}
 
 .footer .address {
   max-width: 264.57px;
